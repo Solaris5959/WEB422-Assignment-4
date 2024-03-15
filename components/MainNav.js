@@ -25,10 +25,10 @@ export default function MainNav() {
                             <Nav.Link>Advanced Search</Nav.Link>
                         </Link>
                     </Nav>
-                    <Form className="d-flex" onSubmit={handleSubmit}>
+                    <form className="d-flex" onSubmit={handleSubmit}>
                         <FormControl type="text" name="search" placeholder="Search" className="me-2" />
-                        <Button class="btn btn-success" type="submit">Search</Button>
-                    </Form>
+                        <Button className="btn btn-success" type="submit">Search</Button>
+                    </form>
                 </Container>
             </Navbar>
             <br /><br />
