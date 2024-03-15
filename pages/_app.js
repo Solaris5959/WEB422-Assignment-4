@@ -2,7 +2,6 @@ import '@/styles/bootstrap.min.css';
 import { SWRConfig } from 'swr';
 import Layout from '../components/Layout';
 
-const fetcher = 
 
 function MyApp({ Component, pageProps }) {
     return (
